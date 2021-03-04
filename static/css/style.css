@@ -1,0 +1,222 @@
+body{
+  background-image: url("/static/images/flower.jpg");
+  background-color: #f6f0ed;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* --------- Nav Bar ---------- */
+
+.navbar {
+  /* background-color:rgb(207, 207, 245); */
+  background-color:#545454 !important;
+  /* overflow: hidden; */
+  margin:0;
+  padding:0;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: #f2faf2 !important;
+  text-align: center;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  text-decoration: none;
+  font-size: 20px;
+  /* font-style: oblique; */
+  /* font-weight: 400; */
+  /* font-variant: small-caps; */
+  font-family: Ubuntu, sans-serif;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black !important;
+}
+
+/* Add a color to the active/current link */
+.navbar .nav-link.active {
+  background-color: #c9e265;
+  color: black !important;
+}
+
+/* --------- Nav Bar ---------- */
+
+
+/* --------- Main page ---------- */
+#main-page{
+  position: center;
+  margin:20px;
+  padding:0;
+}
+#main-img{
+  width: 100%;
+  height: auto;
+}
+/* --------- Main page ---------- */
+
+/* --------- Design your Fragrance page ---------- */
+
+.design-row {
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.notes-row {
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.button-row {
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.results-row {
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  color: #7b2c2d;
+}
+
+.perfumes-row {
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/* --------- Design your Fragrance page ---------- */
+
+/* --------- Perfume Info page ---------- */
+canvas {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+.container {
+  padding-top: 30px;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-right: 90px;
+  padding-top: 30px;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+}
+
+.top-bar {
+  position: relative;
+  height: 150px;
+  padding: 20px;
+  margin: 0;
+  background: black;
+}
+
+/* 6 circles */
+.dashboard-circles-box {
+  display: flex;
+  justify-content: left;
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+#dashboard-circle1, #dashboard-circle2, #dashboard-circle3, #dashboard-circle4, 
+#dashboard-circle5, #dashboard-circle6
+{
+  height: calc(0.2 * 100vmin); /* 64px at 320 and 256px at 1280 */
+  width : calc(0.2 * 100vmin); 
+  background-position: center;  /* center image in parent */
+  background-repeat: no-repeat; /* prevents repeat of image! */
+  background-size: cover;       /* stretch/shrink to fill */
+  border-radius: 50%;
+  opacity: 1;
+}
+
+#dashboard-circle1 {
+  background-image: url("../images/topnote.jpg");
+  opacity: 0.8;
+}
+#dashboard-circle2 {
+  background-image: url("../images/midnote.jpg");
+  opacity: 0.8;
+}
+#dashboard-circle3 {
+    background-image: url("../images/perfume_chem2.png");
+    opacity: 0.8;
+}
+#dashboard-circle4 {
+  background-image: url("../images/basenote.jpg");
+  opacity: 0.8;
+}
+#dashboard-circle5 {
+  background-image: url("../images/perfume_smoke.jfif");
+  opacity: 0.8;
+}
+#dashboard-circle6 {
+  background-image: url("../images/long.jpg");
+  opacity: 0.8;
+}
+
+
+#dashboard-circle1:hover {
+  opacity: 0.5;
+}
+#dashboard-circle2:hover {
+  opacity: 0.5;
+}
+#dashboard-circle3:hover {
+  opacity: 0.5;
+}
+#dashboard-circle4:hover {
+  opacity: 0.5;
+}
+#dashboard-circle5:hover {
+  opacity: 0.5;
+}
+#dashboard-circle6:hover {
+  opacity: 0.5;
+}
+.dashboard-circles-box a {
+  text-decoration: none;
+}
+
+#dashboard-menu-item1, #dashboard-menu-item2, #dashboard-menu-item3, #dashboard-menu-item4,
+#dashboard-menu-item5, #dashboard-menu-item6 
+{
+  padding-top: 50px;
+  font-size: x-large;
+  color: black;
+  text-decoration: none;
+  opacity: 1;
+  margin: 0;
+}
+/* --------- Perfume Info page ---------- */
+
+/* --------- Visualization page ---------- */
+
+/* --------- Visualization page ---------- */
+
+/* --------- About page ---------- */
+.about-box {
+  border: 0px 5px 0px 5px;  
+  border-style: solid;
+  border-color: #545454;
+  
+}
+
+/* --------- About page ---------- */
